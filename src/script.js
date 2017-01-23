@@ -46,7 +46,10 @@ $(window).on('load', function() {
     });
 
     curVideo = movie.id;
+
+    // Reset to default values
     seekBar.value = 0;
+    playButton.innerHTML = '<i class="fa fa-play"></i>';
 
     $('ul#playlist').find('li.active').removeClass('active');
     $('ul#playlist').find('li[movieid="' + movie.id + '"]').addClass('active');
