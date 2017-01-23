@@ -1,0 +1,21 @@
+{
+  "data" : [
+    { 
+      "id": 1, "name": "Video-1", "url":"videos/video_1.mp4", 
+      "poster": "http://placehold.it/300x150/000000?text=video-1"
+    },
+    { 
+      "id": 2, "name": "Video-2", "url":"videos/video_2.mp4", 
+      "poster": "http://placehold.it/300x150/000000?text=video-2"
+    },
+    { 
+      "id": 3, "name": "Video-3", "url":"videos/video_3.mp4", 
+      "poster": "http://placehold.it/300x150/000000?text=video-3"
+    },
+    { 
+      "id": 4, "name": "Video-4", "url":"videos/video_4.mp4", 
+      "poster": "http://placehold.it/300x150/000000?text=video-4"
+    }
+  ],
+  "total" : 4
+}

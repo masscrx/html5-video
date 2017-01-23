@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Video Player</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+</head>
+<body>
+
+<div id="video-container">
+  <video id="videoarea" autobuffer poster="" src="" width="640" height="365">
+
+    <p>
+      Your browser doesn't support HTML5 video.
+    </p>
+  </video>
+  <div id="video-controls">
+    <button type="button" id="play-pause"><i class="fa fa-play"></i></button>
+    <button type="button" id="stop"><i class="fa fa-stop"></i></button>
+    <input type="range" id="seek-bar" value="0">
+    <button type="button" id="mute"><i class="fa fa-volume-off"></i></button>
+    <input type="range" id="volume-bar" min="0" max="1" step="0.1" value="1">
+    <button type="button" id="full-screen"><i class="fa fa-expand"></i></button>
+    Autoplay
+    <input type="checkbox" name="" id="autoplay">
+  </div>
+</div>
+
+<div class="playlist-container">
+  <ul id="playlist"></ul>
+</div>
+
+
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
